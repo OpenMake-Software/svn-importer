@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xmlns:ant="jelly:ant"
+  xmlns:maven="jelly:maven">
+
+
+  <preGoal name="java:compile">
+    <ant:path
+      id="javacvs.add.src.dir"
+      location="${basedir}/javacvs_add"/>
+    <maven:addPath
+       id="maven.compile.src.set"
+       refid="javacvs.add.src.dir"/>
+  </preGoal>
+  
+</project>

@@ -1,0 +1,1 @@
+Class-Path: lib/common.jar lib/ccprovider.jar lib/cvsprovider.jar lib/javacvs.jar lib/log4j-1.2.7.jar lib/mksprovider.jar lib/pvcsprovider.jar lib/svnprovider.jar lib/vssprovider.jar lib/stprovider.jar lib/starteam80.jar lib/jawin.jar

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <pomVersion>3</pomVersion>
+  <id>javacvs</id>
+  <name>Java CVS Client</name>
+  <currentVersion>1.0</currentVersion>
+
+  <organization>
+    <name>NetBeans</name>
+    <url></url>
+    <logo></logo>
+  </organization>
+
+  <package>org.netbeans.lib.cvsclient</package>
+  <logo></logo>
+  <description></description>
+
+  <shortDescription></shortDescription>
+
+  <url></url>
+  <issueTrackingUrl></issueTrackingUrl>
+  <siteAddress></siteAddress>
+  <siteDirectory></siteDirectory>
+  <distributionDirectory></distributionDirectory>
+
+  <repository>
+    <connection>scm|svn|http|//svn.polarion.org/repos/community/svnimporter|javacvs|</connection>
+    <developerConnection></developerConnection>
+    <url>http://svn.polarion.org/repos/community/svnimporter/javacvs</url>
+  </repository>
+
+  <mailingLists/>
+
+  <developers/>
+
+  <dependencies/>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+
+</project>

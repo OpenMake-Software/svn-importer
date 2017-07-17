@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.svnprovider"/>
+	<classpathentry kind="lib" path="/org.polarion.svnimporter.import/log4j-1.2.7.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.cvsprovider"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.pvcsprovider"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.ccprovider"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.import"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/org.polarion.svnimporter.mksprovider"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

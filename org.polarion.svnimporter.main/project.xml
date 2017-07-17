@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <pomVersion>3</pomVersion>
+  <id>org.polarion.svnimporter.main</id>
+  <name>SVN Importer Main</name>
+  <currentVersion>1.1</currentVersion>
+
+  <organization>
+    <name>Polarion</name>
+    <url></url>
+    <logo></logo>
+  </organization>
+
+  <inceptionYear>2005</inceptionYear>
+
+  <package>org.polarion.svnimporter.main</package>
+  <logo></logo>
+  <description></description>
+  <shortDescription></shortDescription>
+
+  <url></url>
+  <issueTrackingUrl></issueTrackingUrl>
+  <siteAddress></siteAddress>
+  <siteDirectory></siteDirectory>
+  <distributionDirectory></distributionDirectory>
+
+  <repository>
+    <connection>scm|svn|http|//svn.polarion.org/repos/community/svnimporter|org.polarion.svnimporter.main|</connection>
+    <developerConnection></developerConnection>
+    <url>http://svn.polarion.org/repos/community/svnimporter/org.polarion.svnimporter.main</url>
+  </repository>
+
+  <mailingLists/>
+
+  <developers/>
+
+  <dependencies>
+    <dependency>
+      <id>log4j</id>
+      <version>1.2.8</version>
+    </dependency>
+    <dependency>
+      <id>org.polarion.svnimporter.common</id>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <id>org.polarion.svnimporter.svnprovider</id>
+      <version>1.1</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+    <unitTestSourceDirectory>tests</unitTestSourceDirectory>
+    <unitTest>
+      <includes>
+        <include>**/test*.java</include>
+      </includes>
+    </unitTest>
+  </build>
+
+  <reports>
+<!--
+    <report>maven-jdepend-plugin</report>
+    <report>maven-checkstyle-plugin</report>
+    <report>maven-jxr-plugin</report>
+    <report>maven-junit-report-plugin</report>
+    <report>maven-pmd-plugin</report>
+    <report>maven-simian-plugin</report>
+    <report>maven-jcoverage-plugin</report>
+-->
+  </reports>
+
+</project>
